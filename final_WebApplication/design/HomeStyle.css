@@ -1,0 +1,454 @@
+﻿.bodyClass {
+    background-image: url('Man_Made_watch_50307.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 1077px;
+    margin-right: 0px;
+
+}
+
+.clockMain {
+    position: absolute;
+    top: 304px;
+    left: 505px;
+    height: 114px;
+    width: 68px;
+}
+
+
+.backround {
+    background-image: url('back.jpg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    height: 809px;
+
+}
+
+.header1 {
+    top: 73px;
+    position: absolute;
+    left: 518px;
+    width: 739px;
+    margin-right: 425px;
+    bottom: 132px;
+}
+
+.header2 {
+    top: 142px;
+    left: 681px;
+    position: absolute;
+    width: 739px;
+    margin-right: 425px;
+}
+
+.time {
+    position: absolute;
+    top: 385px;
+    left: 508px;
+    width: 268px;
+}
+
+.date {
+    position: absolute;
+    top: 385px;
+    left: 867px;
+    width: 267px;
+}
+
+.button_login {
+    background-image: linear-gradient(top, rgba(230,174,124,1) 19%,rgba(117,65,25,1) 89%);
+    -webkit-box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    -webkit-border-radius: 9px;
+    position: absolute;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    width: 280px;
+    height: 250px;
+    padding: 15px;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 20px 5px 15px rgba(0,0,0,1);
+    top: 520px;
+    left: 861px;
+}
+
+    .button_login:hover {
+        background-image: -webkit-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -moz-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -ms-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -o-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        border: solid 2px rgba(0,0,0,1);
+    }
+
+    .button_login:active {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+
+
+.button_mang {
+    position: absolute;
+    background-image: linear-gradient(top, rgba(230,174,124,1) 19%,rgba(117,65,25,1) 89%);
+    -webkit-box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    box-shadow: 9px -4px 12px 5px rgba(0,0,0,1);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    width: 280px;
+    height: 250px;
+    padding: 15px;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 20px 5px 15px rgba(0,0,0,1);
+    top: 523px;
+    left: 501px;
+}
+
+    .button_mang:hover {
+        background-image: -webkit-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -moz-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -ms-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: -o-linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        background-image: linear-gradient(top, rgba(230,230,230,1) 100%,rgba(200,200,200,1) 54%);
+        border: solid 2px rgba(0,0,0,1);
+    }
+
+    .button_mang:active {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+
+
+.enterId {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    top: 485px;
+    position: absolute;
+    left: 765px;
+    height: 39px;
+    width: 330px;
+}
+
+.enterPass {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    top: 588px;
+    position: absolute;
+    left: 768px;
+    height: 39px;
+    width: 330px;
+}
+
+.enterIdLabel {
+    top: 846px;
+    left: 316px;
+    position: absolute;
+    height: 64px;
+    width: 809px;
+}
+
+.imageLogPass {
+    position: absolute;
+    top: 507px;
+    left: 488px;
+    width: 486px;
+    height: 180px;
+}
+
+.LogIn {
+    position: absolute;
+    top: 496px;
+    left: 361px;
+    width: 478px;
+}
+
+
+.textBoxEnterId {
+    position: absolute;
+    top: 525px;
+    left: 659px;
+    width: 176px;
+}
+
+.textBoxEnterPass {
+    position: absolute;
+    top: 580px;
+    left: 659px;
+    width: 176px;
+}
+
+.LabelId {
+    position: absolute;
+    top: 525px;
+    left: 548px;
+}
+
+.LabelPass {
+    position: absolute;
+    top: 580px;
+    left: 548px;
+}
+
+.ButtonLogin {
+    position: absolute;
+    top: 584px;
+    left: 700px;
+}
+
+.labalIncorect {
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+
+.buttonEnter {
+    background-image: -webkit-linear-gradient(top, rgba(0,255,30,1) 50%,rgba(100,209,118,1) 100%);
+    background-image: -moz-linear-gradient(top, rgba(0,255,30,1) 50%,rgba(100,209,118,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0,255,30,1) 50%,rgba(100,209,118,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(0,255,30,1) 50%,rgba(100,209,118,1) 100%);
+    background-image: linear-gradient(top, rgba(0,255,30,1) 50%,rgba(100,209,118,1) 100%);
+    -webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    border: solid 3px rgba(166,214,156,1);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 670px;
+    height: 220px;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 60px;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+    font-weight: bold;
+}
+
+    .buttonEnter:hover {
+        background-image: -webkit-linear-gradient(top, rgba(47,189,64,1) 50%,rgba(9,255,0,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(47,189,64,1) 50%,rgba(9,255,0,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(47,189,64,1) 50%,rgba(9,255,0,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(47,189,64,1) 50%,rgba(9,255,0,1) 100%);
+        background-image: linear-gradient(top, rgba(47,189,64,1) 50%,rgba(9,255,0,1) 100%);
+    }
+
+    .buttonEnter:active {
+        background-image: -webkit-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+    }
+
+.buttonExit {
+    background-image: -webkit-linear-gradient(top, rgba(255,60,0,1) 50%,rgba(122,11,11,1) 100%);
+    background-image: -moz-linear-gradient(top, rgba(255,60,0,1) 50%,rgba(122,11,11,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255,60,0,1) 50%,rgba(122,11,11,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(255,60,0,1) 50%,rgba(122,11,11,1) 100%);
+    background-image: linear-gradient(top, rgba(255,60,0,1) 50%,rgba(122,11,11,1) 100%);
+    -webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 6px 0px rgba(0,0,0,1);
+    border: solid 3px rgba(166,214,156,1);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 670px;
+    height: 220px;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 60px;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+    font-weight: bold;
+}
+
+    .buttonExit:hover {
+        background-image: -webkit-linear-gradient(top, rgba(161,26,26,1) 50%,rgba(255,0,0,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(161,26,26,1) 50%,rgba(255,0,0,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(161,26,26,1) 50%,rgba(255,0,0,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(161,26,26,1) 50%,rgba(255,0,0,1) 100%);
+        background-image: linear-gradient(top, rgba(161,26,26,1) 50%,rgba(255,0,0,1) 100%);
+    }
+
+    .buttonExit:active {
+        background-image: -webkit-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+        background-image: linear-gradient(top, rgba(195,240,200,0.23) 50%,rgba(100,209,118,1) 100%);
+    }
+
+
+.button_ShowAllShifts {
+    background-image: -webkit-linear-gradient(top, rgba(138,89,15,1) 25%,rgba(224,164,61,1) 65%);
+    background-image: -moz-linear-gradient(top, rgba(138,89,15,1) 25%,rgba(224,164,61,1) 65%);
+    background-image: -ms-linear-gradient(top, rgba(138,89,15,1) 25%,rgba(224,164,61,1) 65%);
+    background-image: -o-linear-gradient(top, rgba(138,89,15,1) 25%,rgba(224,164,61,1) 65%);
+    background-image: linear-gradient(top, rgba(138,89,15,1) 25%,rgba(224,164,61,1) 65%);
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    border: solid 5px rgba(82,55,34,1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 670px;
+    height: 80px;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
+}
+
+    .button_ShowAllShifts:hover {
+        background-image: -webkit-linear-gradient(top, rgba(204,151,71,1) 25%,rgba(176,116,19,1) 65%);
+        background-image: -moz-linear-gradient(top, rgba(204,151,71,1) 25%,rgba(176,116,19,1) 65%);
+        background-image: -ms-linear-gradient(top, rgba(204,151,71,1) 25%,rgba(176,116,19,1) 65%);
+        background-image: -o-linear-gradient(top, rgba(204,151,71,1) 25%,rgba(176,116,19,1) 65%);
+        background-image: linear-gradient(top, rgba(204,151,71,1) 25%,rgba(176,116,19,1) 65%);
+    }
+
+    .button_ShowAllShifts:active {
+        background-image: -webkit-linear-gradient(top, rgba(209,195,174,1) 25%,rgba(135,130,123,1) 65%);
+        background-image: -moz-linear-gradient(top, rgba(209,195,174,1) 25%,rgba(135,130,123,1) 65%);
+        background-image: -ms-linear-gradient(top, rgba(209,195,174,1) 25%,rgba(135,130,123,1) 65%);
+        background-image: -o-linear-gradient(top, rgba(209,195,174,1) 25%,rgba(135,130,123,1) 65%);
+        background-image: linear-gradient(top, rgba(209,195,174,1) 25%,rgba(135,130,123,1) 65%);
+    }
+
+
+.tableAllShifts {
+    position: absolute;
+    top: 53px;
+    left: 361px;
+    width: 650px;
+}
+
+
+.button_backAfterAllShifts {
+    background-image: -webkit-linear-gradient(top, rgba(66,56,56,1) 0%,rgba(200,200,200,1) 100%);
+    background-image: -moz-linear-gradient(top, rgba(66,56,56,1) 0%,rgba(200,200,200,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(66,56,56,1) 0%,rgba(200,200,200,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(66,56,56,1) 0%,rgba(200,200,200,1) 100%);
+    background-image: linear-gradient(top, rgba(66,56,56,1) 0%,rgba(200,200,200,1) 100%);
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,1);
+    border: solid 2px rgba(31,27,31,1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 650px;
+    height: 60px;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+}
+
+    .button_backAfterAllShifts:hover {
+        background-image: -webkit-linear-gradient(top, rgba(189,189,189,1) 0%,rgba(77,70,77,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(189,189,189,1) 0%,rgba(77,70,77,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(189,189,189,1) 0%,rgba(77,70,77,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(189,189,189,1) 0%,rgba(77,70,77,1) 100%);
+        background-image: linear-gradient(top, rgba(189,189,189,1) 0%,rgba(77,70,77,1) 100%);
+    }
+
+    .button_backAfterAllShifts:active {
+        background-image: -webkit-linear-gradient(top, rgba(179,168,168,1) 0%,rgba(200,200,200,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(179,168,168,1) 0%,rgba(200,200,200,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(179,168,168,1) 0%,rgba(200,200,200,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(179,168,168,1) 0%,rgba(200,200,200,1) 100%);
+        background-image: linear-gradient(top, rgba(179,168,168,1) 0%,rgba(200,200,200,1) 100%);
+    }
+
+
+.button_in_manager_menu {
+    background-image: -webkit-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(200,200,200,1) 100%);
+    background-image: -moz-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(200,200,200,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(200,200,200,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(200,200,200,1) 100%);
+    background-image: linear-gradient(top, rgba(230,230,230,1) 15%,rgba(200,200,200,1) 100%);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,1);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,1);
+    border: solid 2px rgba(0,0,0,1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 250px;
+    height: 80px;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+}
+
+    .button_in_manager_menu:hover {
+        background-image: -webkit-linear-gradient(top, rgba(189,187,189,1) 15%,rgba(224,224,224,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(189,187,189,1) 15%,rgba(224,224,224,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(189,187,189,1) 15%,rgba(224,224,224,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(189,187,189,1) 15%,rgba(224,224,224,1) 100%);
+        background-image: linear-gradient(top, rgba(189,187,189,1) 15%,rgba(224,224,224,1) 100%);
+    }
+
+    .button_in_manager_menu:active {
+        background-image: -webkit-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(235,228,235,1) 100%);
+        background-image: -moz-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(235,228,235,1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(235,228,235,1) 100%);
+        background-image: -o-linear-gradient(top, rgba(230,230,230,1) 15%,rgba(235,228,235,1) 100%);
+        background-image: linear-gradient(top, rgba(230,230,230,1) 15%,rgba(235,228,235,1) 100%);
+    }
+
+.dinamicTable {
+    text-align: center;
+    margin-left: auto;
+    width: 30%;
+    margin-right: auto;
+}
+
+
+.calendar1 {
+    width:25%;
+
+}
+.calendar1-r {
+    position:absolute;
+    width:75%;
+    top: 124px;
+    left: 212px;
+    height: 178px;
+    right: 34px;
+}
+
+.placeHold {
+        position:absolute;
+    top: 242px;
+    left: 295px;
+}
+.dinButton {
+    text-align:center;
+    border-radius:6px;
+}
+

@@ -1,0 +1,6 @@
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\bin\final_WebApplication.dll
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\bin\final_WebApplication.pdb
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\bin\MySql.Data.dll
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\obj\Debug\final_WebApplication.dll
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\obj\Debug\final_WebApplication.pdb
+C:\Users\eli\Desktop\year3_sms_b\תכנות בסביבת אינטרנט\final_WebApplication\final_WebApplication\obj\Debug\final_WebApplication.csprojResolveAssemblyReference.cache
